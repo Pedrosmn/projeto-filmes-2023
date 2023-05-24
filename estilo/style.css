@@ -1,0 +1,55 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: linear-gradient(to bottom, #6890E0, #DC38E0,#E04102, #3C312D, black);
+}
+
+section {
+    max-width: 700px;
+    margin: auto;
+    margin-top: 175px;
+    margin-bottom: 300px;
+    padding: 25px;
+    display: flex;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.349);
+}
+
+
+section.asteroid {
+    background-image: url(../imagens/deserto.jpeg);
+}
+
+section.oppenheimer {
+    background-image: url(../imagens/fogo.jpeg);
+}
+
+section.barbie {
+    background-image: url(../imagens/ceu-rosa.jpg);
+}
+
+section.kotfm {
+    background-image: url(../imagens/floresta.jpg);
+}
+
+div.escrito {
+    padding: 30px;
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.425);
+    color: white;
+    font-size: 0.9em;
+    text-shadow: 1px 1px 1px black;
+    margin-left: 20px;
+    line-height: 1.5em;
+}
+div.escrito > h1{
+    text-align: center;
+}
