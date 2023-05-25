@@ -84,3 +84,18 @@ div.escrito > h1{
     font-family: var(--fonte_titulo);
     margin-bottom: 10px;
 }
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+footer a:hover {
+    text-decoration: underline;
+}
