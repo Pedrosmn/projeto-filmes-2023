@@ -1,7 +1,29 @@
 @charset "UTF-8";
 
+
+div.bg {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+div.bg#asteroid {
+    background-image: linear-gradient(to bottom, #AEC1E6, #6890E0);
+}
+
+div.bg#barbie {
+    background-image: linear-gradient(to bottom, #DC38E0, #E47EE6);
+}
+
+div.bg#oppenheimer {
+    background-image: linear-gradient(to bottom, #E67447, #E04102);
+}
+
+div.bg#kotfm {
+    background-image: linear-gradient(to bottom, #573427, #3C312D);
+}
+
 section {
-    max-width: 700px;
+    max-width: 900px;
     margin: auto;
     padding: 60px;
     display: flex;
@@ -15,8 +37,8 @@ section {
 }
 
 div.escrito {
+    height: 290px;
     padding: 30px;
-    text-align: justify;
     background-color: rgba(0, 0, 0, 0.425);
     color: white;
     font-size: 0.9em;
@@ -24,3 +46,4 @@ div.escrito {
     margin-left: 20px;
     line-height: 1.5em;
 }
+

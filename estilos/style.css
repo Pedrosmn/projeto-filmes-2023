@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+/*Mobile first*/
+
+:root {
+    --fonte_titulo: 'Secular One', sans-serif;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div.bg {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+div.bg#asteroid {
+    background-image: none;
+    background-color: #6890E0;
+}
+
+div.bg#barbie {
+    background-image: none;
+    background-color: #E47EE6;
+}
+
+div.bg#oppenheimer {
+    background-image: none;
+    background-color: #E04102;
+}
+
+div.bg#kotfm {
+    background-image: none;
+    background-color: #573427;
+}
+
+section {
+    margin: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 60px;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.349);
+}
+
+section > a {
+    display: block;
+    margin: auto;
+    width: 202px;
+    height: 299px;
+}
+
+section > a:hover {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.253);
+}
+
+section.asteroid {
+    background-image: url(../imagens/bg-deserto.jpeg);
+}
+
+section.oppenheimer {
+    background-image: url(../imagens/bg-fogo.jpeg);
+}
+
+section.barbie {
+    background-image: url(../imagens/bg-ceu-rosa.jpg);
+}
+
+section.kotfm {
+    background-image: url(../imagens/bg-floresta.jpg);
+}
+
+div.escrito {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    max-width: 400px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.425);
+    color: white;
+    font-size: 0.9em;
+    text-shadow: 1px 1px 1px black;
+    font-size: 1em;
+    border-radius: 5px;
+    line-height: 1.5em;
+}
+
+div.escrito > h1{
+    text-align: center;
+    font-family: var(--fonte_titulo);
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
